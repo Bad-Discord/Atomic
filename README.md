@@ -10,7 +10,7 @@ ATOMIC Tool is a professional attacking tool that support abnormal options like:
 - Professional Token Checker
 - Fast Multi Token raider
 
-# Featurs
+# Features
 
 ## Webhook Tools
 <img src="screenshots/webhooks.png">
