@@ -1,8 +1,8 @@
-# ATOMIC Tool
+# ☣︎ ATOMIC Tool ☣︎
 <img src="screenshots/start.png">
 
 
-## ATOMIC Tool is a professional attacking tool that support abnormal options like:
+## 🕶 ATOMIC Tool is a professional attacking tool that support abnormal options like:
 
 - Multi webhook spammer
 - Multi webhook deleter
@@ -11,14 +11,19 @@
 - Fast Multi Token raider
 - Discord Token Nuker
 
-# Features 
+# ⚡ Features 
 
-## Webhook Tools
+## 🔗 Webhook Tools
 <img src="screenshots/webhooks.png">
 <br>
 
-## Token Tools
+## 💊 Token Tools
 <img src="screenshots/tokens.png">
 
+<br>
 
-And More!
+
+**✨ And More!**
+
+# ⚠ Disclaimer
+**Using this tool means violating Discord's Terms of policy, and the owner of this Tool _does not_ take any responsibility for the for the blocking of your account & etc.**
