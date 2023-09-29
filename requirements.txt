@@ -1,0 +1,5 @@
+aiohttp==3.7.4.post0
+asyncio==3.4.3
+pystyle==2.9
+fake-useragent==1.2.1
+requests==2.28.2
