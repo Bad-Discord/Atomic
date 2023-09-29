@@ -1380,9 +1380,12 @@ async def tokenTools():
                     mfa = i['mfa_enabled']
                     flags = i['flags']
                     creation = datetime.utcfromtimestamp(((int(i['id']) >> 22) + 1420070400000) / 1000).strftime('%d-%m-%Y %H:%M:%S UTC')
-                    guilds = req.get(url="https://discord.com/api/v9/users/@me/guilds",headers=headers).json()
-                    dms = req.get(url="https://canary.discord.com/api/v8/users/@me/channels", headers=headers).json()
-                    friends = req.get(url="https://canary.discord.com/api/v8/users/@me/relationships", headers=headers).json()
+                    try: guilds = req.get(url="https://discord.com/api/v9/users/@me/guilds",headers=headers).json()
+                    except: guilds = []
+                    try: dms = req.get(url="https://canary.discord.com/api/v8/users/@me/channels", headers=headers).json()
+                    except: dms = []
+                    try: friends = req.get(url="https://canary.discord.com/api/v8/users/@me/relationships", headers=headers).json()
+                    except: friends = []
 
                     def nitro_info():
                         has_nitro = False
@@ -1397,6 +1400,7 @@ async def tokenTools():
                             return False
 
                     status = f'''
+        
 
         {green}   Token: {re}{token}
 
@@ -1425,6 +1429,7 @@ async def tokenTools():
                 print_("[!!] Press Enter to continue")
                 input()
                 await tokenTools()
+        else: await tokenTools()
 
 async def proxies():
     print_logo()
