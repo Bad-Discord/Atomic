@@ -10,6 +10,27 @@
 - Professional Token Checker
 - Fast Multi Token raider
 - Discord Token Nuker
+# Installation 
+
+🔗 Clone the repo by using this link
+```bash
+git clone https://github.com/M-logique/Atomic
+```
+
+♦ Open the project in your teminal
+```bash
+cd Atomic
+```
+
+⚡ Install Python packages by using pip
+```bash
+pip install -r requirements.txt
+```
+
+✨ Now Enjoy!
+```bash
+python main.py
+```
 
 # ⚡ Features 
 
