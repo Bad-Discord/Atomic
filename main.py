@@ -1543,5 +1543,5 @@ async def main_menu():
         # await Atomic_Nuking()
     
 
-
-asyncio.run(main_menu())
+if __name__ == "__main":
+    asyncio.run(main_menu())
