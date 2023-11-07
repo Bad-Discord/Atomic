@@ -128,7 +128,8 @@ def get_webhooks():
         return kh
 def random_useragent():
     with open('./Atomic/useragents.txt', 'r') as file:
-        return random.choice(file.read().split('\n'))
+        return "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" 
+    # This shit had bugs so i removed this
 
 Anime.Fade(Center.Center(intro), Colors.yellow_to_green, Colorate.Vertical, interval=0.0035, enter=True)
 
@@ -1543,5 +1544,5 @@ async def main_menu():
         # await Atomic_Nuking()
     
 
-if __name__ == "__main":
-    asyncio.run(main_menu())
+
+asyncio.run(main_menu())
